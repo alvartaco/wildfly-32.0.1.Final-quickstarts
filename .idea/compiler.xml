@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ee-security" />
+        <module name="jsonp" />
+        <module name="remote-helloworld-mdb" />
+        <module name="mail" />
+        <module name="spring-resteasy" />
+        <module name="servlet-security" />
+        <module name="opentelemetry-tracing" />
+        <module name="bmt" />
+        <module name="ejb-multi-server-app-two-ejb" />
+        <module name="ejb-multi-server-app-one-ejb" />
+        <module name="microprofile-config" />
+        <module name="jaxrs-client" />
+        <module name="jaxrs-jwt" />
+        <module name="ejb-multi-server-app-two-ear" />
+        <module name="microprofile-jwt" />
+        <module name="microprofile-rest-client" />
+        <module name="ejb-multi-server-app-main-ear" />
+        <module name="helloworld" />
+        <module name="jta-crash-rec" />
+        <module name="http-custom-mechanism-webapp" />
+        <module name="ejb-multi-server-app-main-web" />
+        <module name="ejb-txn-remote-call-server" />
+        <module name="helloworld-jms" />
+        <module name="batch-processing" />
+        <module name="servlet-filterlistener" />
+        <module name="microprofile-openapi" />
+        <module name="jts-application-component-2" />
+        <module name="ejb-multi-server-app-main-ejb" />
+        <module name="jts-application-component-1" />
+        <module name="ha-singleton-service" />
+        <module name="websocket-hello" />
+        <module name="thread-racing" />
+        <module name="helloworld-mdb" />
+        <module name="tasks-jsf" />
+        <module name="microprofile-fault-tolerance" />
+        <module name="helloworld-mutual-ssl" />
+        <module name="helloworld-mutual-ssl-secured" />
+        <module name="jaxws-ejb" />
+        <module name="ha-singleton-deployment" />
+        <module name="kitchensink" />
+        <module name="numberguess" />
+        <module name="security-domain-to-domain-ejb" />
+        <module name="ejb-multi-server-app-web" />
+        <module name="ejb-multi-server-client" />
+        <module name="cmt" />
+        <module name="jboss-logging" />
+        <module name="hibernate" />
+        <module name="security-domain-to-domain-web" />
+        <module name="micrometer" />
+        <module name="security-domain-to-domain-ear" />
+        <module name="ejb-throws-exception-ear" />
+        <module name="helloworld-ws" />
+        <module name="ejb-throws-exception-ejb" />
+        <module name="ejb-security-context-propagation" />
+        <module name="ejb-throws-exception-ejb-api" />
+        <module name="ejb-throws-exception-web" />
+        <module name="messaging-clustering-singleton" />
+        <module name="security-domain-to-domain-test" />
+        <module name="custom-module" />
+        <module name="microprofile-reactive-messaging-kafka" />
+        <module name="ejb-timer" />
+        <module name="ejb-security-programmatic-auth" />
+        <module name="todo-backend" />
+        <module name="ejb-txn-remote-call-client" />
+        <module name="temperature-converter" />
+        <module name="ejb-multi-server-app-one-ear" />
+        <module name="ejb-remote" />
+        <module name="jaxws-retail" />
+        <module name="helloworld-singleton" />
+        <module name="microprofile-health" />
+        <module name="microprofile-lra" />
+        <module name="servlet-async" />
+        <module name="websocket-endpoint" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="batch-processing" options="-Xlint:unchecked" />
+      <module name="bmt" options="-Xlint:unchecked" />
+      <module name="cmt" options="-Xlint:unchecked" />
+      <module name="custom-module" options="-Xlint:unchecked" />
+      <module name="ee-security" options="-Xlint:unchecked" />
+      <module name="ejb-multi-server-app-main-ejb" options="-Xlint:unchecked" />
+      <module name="ejb-multi-server-app-main-web" options="-Xlint:unchecked" />
+      <module name="ejb-multi-server-app-one-ejb" options="-Xlint:unchecked" />
+      <module name="ejb-multi-server-app-two-ejb" options="-Xlint:unchecked" />
+      <module name="ejb-multi-server-app-web" options="-Xlint:unchecked" />
+      <module name="ejb-multi-server-client" options="-Xlint:unchecked" />
+      <module name="ejb-remote" options="-Xlint:unchecked" />
+      <module name="ejb-security-context-propagation" options="-Xlint:unchecked" />
+      <module name="ejb-security-programmatic-auth" options="-Xlint:unchecked" />
+      <module name="ejb-throws-exception-ejb" options="-Xlint:unchecked" />
+      <module name="ejb-throws-exception-ejb-api" options="-Xlint:unchecked" />
+      <module name="ejb-throws-exception-web" options="-Xlint:unchecked" />
+      <module name="ejb-timer" options="-Xlint:unchecked" />
+      <module name="ejb-txn-remote-call-client" options="-Xlint:unchecked" />
+      <module name="ejb-txn-remote-call-server" options="-Xlint:unchecked" />
+      <module name="ha-singleton-deployment" options="-Xlint:unchecked" />
+      <module name="ha-singleton-service" options="-Xlint:unchecked" />
+      <module name="helloworld" options="-Xlint:unchecked" />
+      <module name="helloworld-jms" options="-Xlint:unchecked" />
+      <module name="helloworld-mdb" options="-Xlint:unchecked" />
+      <module name="helloworld-mutual-ssl" options="-Xlint:unchecked" />
+      <module name="helloworld-mutual-ssl-secured" options="-Xlint:unchecked" />
+      <module name="helloworld-singleton" options="-Xlint:unchecked" />
+      <module name="helloworld-ws" options="-Xlint:unchecked" />
+      <module name="hibernate" options="-Xlint:unchecked" />
+      <module name="http-custom-mechanism-webapp" options="-Xlint:unchecked" />
+      <module name="jaxrs-client" options="-Xlint:unchecked" />
+      <module name="jaxrs-jwt" options="-Xlint:unchecked" />
+      <module name="jaxws-ejb" options="-Xlint:unchecked" />
+      <module name="jaxws-retail" options="-Xlint:unchecked" />
+      <module name="jboss-logging" options="-Xlint:unchecked" />
+      <module name="jsonp" options="-Xlint:unchecked" />
+      <module name="jta-crash-rec" options="-Xlint:unchecked" />
+      <module name="jts-application-component-1" options="-Xlint:unchecked" />
+      <module name="jts-application-component-2" options="-Xlint:unchecked" />
+      <module name="kitchensink" options="-Xlint:unchecked" />
+      <module name="mail" options="-Xlint:unchecked" />
+      <module name="messaging-clustering-singleton" options="-Xlint:unchecked" />
+      <module name="micrometer" options="-Xlint:unchecked" />
+      <module name="microprofile-config" options="-Xlint:unchecked" />
+      <module name="microprofile-fault-tolerance" options="-Xlint:unchecked" />
+      <module name="microprofile-health" options="-Xlint:unchecked" />
+      <module name="microprofile-jwt" options="-Xlint:unchecked" />
+      <module name="microprofile-lra" options="-Xlint:unchecked" />
+      <module name="microprofile-openapi" options="-Xlint:unchecked" />
+      <module name="microprofile-reactive-messaging-kafka" options="-Xlint:unchecked" />
+      <module name="microprofile-rest-client" options="-Xlint:unchecked" />
+      <module name="numberguess" options="-Xlint:unchecked" />
+      <module name="opentelemetry-tracing" options="-Xlint:unchecked" />
+      <module name="remote-helloworld-mdb" options="-Xlint:unchecked" />
+      <module name="security-domain-to-domain-ejb" options="-Xlint:unchecked" />
+      <module name="security-domain-to-domain-test" options="-Xlint:unchecked" />
+      <module name="security-domain-to-domain-web" options="-Xlint:unchecked" />
+      <module name="servlet-async" options="-Xlint:unchecked" />
+      <module name="servlet-filterlistener" options="-Xlint:unchecked" />
+      <module name="servlet-security" options="-Xlint:unchecked" />
+      <module name="spring-resteasy" options="-Xlint:unchecked" />
+      <module name="tasks-jsf" options="-Xlint:unchecked" />
+      <module name="temperature-converter" options="-Xlint:unchecked" />
+      <module name="thread-racing" options="-Xlint:unchecked" />
+      <module name="todo-backend" options="-Xlint:unchecked" />
+      <module name="websocket-endpoint" options="-Xlint:unchecked" />
+      <module name="websocket-hello" options="-Xlint:unchecked" />
+    </option>
+  </component>
+</project>

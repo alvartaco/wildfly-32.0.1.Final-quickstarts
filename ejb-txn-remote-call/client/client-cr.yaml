@@ -1,0 +1,7 @@
+apiVersion: wildfly.org/v1alpha1
+kind: WildFlyServer
+metadata:
+  name: client
+spec:
+  applicationImage: "client:latest"
+  replicas: 1
